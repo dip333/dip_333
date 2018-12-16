@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #061C37;
+    background-repeat:repeat-x;
+    text-shadow: 1px 1px 3px #80808;
+    background-image: -webkit-linear-gradient(top, #ECFF5C, #7BBF8D);
+    background-image: linear-gradient(to bottom, #ECFF5C, #7BBF8D);
+}
+
+nav ul {
+  text-align: left;
+  background-color: orange;
+}
+
+nav h1{
+
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right:65px;
+  text-align: left;
+}
+
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+}
+
+img {
+    vertical-align: middle;
+    height:56px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right:65px;
+  text-align: right;
+}
+
+nav ul li a {
+text-decoration: underline;
+  margin-right:5px;
+}
+
+#home, #pub,#contact{
+  padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 30px;
+  border-radius:50%;
+}
